@@ -1,5 +1,7 @@
 package ctec.mysillyandroidproject.controller;
 
+import java.util.ArrayList;
+
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -11,9 +13,11 @@ import android.widget.TextView;
 
 public class SillyActivity extends Activity
 {
-	private Button appButton;
-	private TextView appText;
+	private Button appFirstButton;
+	private Button appSarcasmButton;
+	private TextView appSillyTextView;
 	private RelativeLayout appLayout;
+	private ArrayList<Integer> colorList;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState)
@@ -22,22 +26,39 @@ public class SillyActivity extends Activity
 		setContentView(R.layout.activity_silly);
 		
 		//Gives you access to a button or any View object.
-		appButton = (Button) findViewById(R.id.firstButton);
-		appText = (TextView) findViewById(R.id.sillyTextView);
+		appFirstButton = (Button) findViewById(R.id.firstButton);
+		appSarcasmButton = (Button) findViewById(R.id.sarcasmButton);
+		appSillyTextView = (TextView) findViewById(R.id.sillyTextView);
 		appLayout = (RelativeLayout) findViewById(R.id.appLayout);
+		
+		colorList = new ArrayList<Integer>();
 		
 		setupListeners();
 	}
 	
+	private void fillTheColorList()
+	{
+		colorList.add(R.color.magentaRed);
+	}
+	
 	private void setupListeners()
 	{
-		appButton.setOnClickListener(new View.OnClickListener()
+		appFirstButton.setOnClickListener(new View.OnClickListener()
 		{
 			
 			@Override
 			public void onClick(View v)
 			{
 				appLayout.setBackgroundResource(R.color.magentaRed);
+			}
+		});
+		
+		appSarcasmButton.setOnClickListener(new View.OnClickListener()
+		{
+			@Override
+			public void onClick(View v)
+			{
+				appLayout.setBackgroundResource(R.color.white);
 			}
 		});
 	}

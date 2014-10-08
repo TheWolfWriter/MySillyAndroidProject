@@ -27,4 +27,14 @@
         android:layout_marginTop="61dp"
         android:text="@string/funText" />
 
+    <Button
+        android:id="@+id/sarcasmButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/firstButton"
+        android:layout_alignBottom="@+id/firstButton"
+        android:layout_alignLeft="@+id/sillyTextView"
+        android:layout_marginLeft="19dp"
+        android:text="@string/sarcasmText" />
+
 </RelativeLayout>
