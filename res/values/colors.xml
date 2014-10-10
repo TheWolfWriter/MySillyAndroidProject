@@ -4,5 +4,13 @@
     <color name="white">#FFFFFF</color>
     <color name="black">#000000</color>
     <color name="magentaRed">#AF1140</color>
+    <color name="prettyPurple">#4B088A</color>
+    <color name="bubblyBlue">#0080FF</color>
+    <color name="appealingOrange">#FF8000</color>
+    <color name="lemonYellow">#FFFF00</color>
+    <color name="seaFoamGreen">#00FF40</color>
+    <color name="bloodRed">#DF0101</color>
+    <color name="pastelPink">#D358F7</color>
+    <color name="indigoBlue">#210B61</color>
     
 </resources>

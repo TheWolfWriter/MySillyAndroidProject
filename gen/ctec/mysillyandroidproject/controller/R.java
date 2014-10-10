@@ -858,12 +858,20 @@ containing a value of this type.
         public static final int abc_split_action_bar_is_narrow=0x7f060002;
     }
     public static final class color {
-        public static final int abc_search_url_text_holo=0x7f070007;
+        public static final int abc_search_url_text_holo=0x7f07000f;
         public static final int abc_search_url_text_normal=0x7f070000;
         public static final int abc_search_url_text_pressed=0x7f070002;
         public static final int abc_search_url_text_selected=0x7f070001;
+        public static final int appealingOrange=0x7f070009;
         public static final int black=0x7f070005;
+        public static final int bloodRed=0x7f07000c;
+        public static final int bubblyBlue=0x7f070008;
+        public static final int indigoBlue=0x7f07000e;
+        public static final int lemonYellow=0x7f07000a;
         public static final int magentaRed=0x7f070006;
+        public static final int pastelPink=0x7f07000d;
+        public static final int prettyPurple=0x7f070007;
+        public static final int seaFoamGreen=0x7f07000b;
         public static final int uglyGreen=0x7f070003;
         public static final int white=0x7f070004;
     }
@@ -1089,7 +1097,11 @@ containing a value of this type.
         public static final int activity_chooser_view_content=0x7f050025;
         public static final int always=0x7f05000b;
         public static final int appLayout=0x7f05003c;
+        public static final int appealingOrangeButton=0x7f050041;
         public static final int beginning=0x7f050011;
+        public static final int blackButton=0x7f05003f;
+        public static final int bloodRedButton=0x7f050042;
+        public static final int bubblyBlueButton=0x7f050043;
         public static final int checkbox=0x7f05002d;
         public static final int collapseActionView=0x7f05000d;
         public static final int default_activity_button=0x7f050028;
@@ -1100,22 +1112,26 @@ containing a value of this type.
         public static final int end=0x7f050013;
         public static final int expand_activities_button=0x7f050026;
         public static final int expanded_menu=0x7f05002c;
-        public static final int firstButton=0x7f05003e;
         public static final int home=0x7f050014;
         public static final int homeAsUp=0x7f050005;
         public static final int icon=0x7f05002a;
         public static final int ifRoom=0x7f05000a;
         public static final int image=0x7f050027;
+        public static final int indigoBlueButton=0x7f050040;
+        public static final int lemonYellowButton=0x7f050044;
         public static final int listMode=0x7f050001;
         public static final int list_item=0x7f050029;
+        public static final int magentaRedButton=0x7f05003d;
         public static final int middle=0x7f050012;
         public static final int never=0x7f050009;
         public static final int none=0x7f050010;
         public static final int normal=0x7f050000;
+        public static final int pastelPinkButton=0x7f050045;
+        public static final int prettyPurpleButton=0x7f050046;
         public static final int progress_circular=0x7f050018;
         public static final int progress_horizontal=0x7f050019;
         public static final int radio=0x7f05002f;
-        public static final int sarcasmButton=0x7f05003f;
+        public static final int seaFoamGreenButton=0x7f050047;
         public static final int search_badge=0x7f050032;
         public static final int search_bar=0x7f050031;
         public static final int search_button=0x7f050033;
@@ -1130,14 +1146,16 @@ containing a value of this type.
         public static final int showCustom=0x7f050007;
         public static final int showHome=0x7f050004;
         public static final int showTitle=0x7f050006;
-        public static final int sillyTextView=0x7f05003d;
+        public static final int sillyTextView=0x7f05003e;
         public static final int split_action_bar=0x7f05001e;
         public static final int submit_area=0x7f050039;
         public static final int tabMode=0x7f050002;
         public static final int title=0x7f05002b;
         public static final int top_action_bar=0x7f050020;
+        public static final int uglyGreenButton=0x7f050048;
         public static final int up=0x7f050021;
         public static final int useLogo=0x7f050003;
+        public static final int whiteButton=0x7f050049;
         public static final int withText=0x7f05000c;
     }
     public static final class integer {
@@ -1235,10 +1253,20 @@ containing a value of this type.
          */
         public static final int abc_shareactionprovider_share_with_application=0x7f0a000b;
         public static final int app_name=0x7f0a000d;
-        public static final int funText=0x7f0a000f;
+        public static final int appealingOrangeText=0x7f0a0016;
+        public static final int blackText=0x7f0a0010;
+        public static final int bloodRedText=0x7f0a0019;
+        public static final int bubblyBlueText=0x7f0a0015;
+        public static final int indigoBlueText=0x7f0a001b;
         public static final int labelText=0x7f0a000e;
-        public static final int sarcasmText=0x7f0a0010;
-        public static final int songStuff=0x7f0a0011;
+        public static final int lemonYellowText=0x7f0a0017;
+        public static final int magentaRedText=0x7f0a000f;
+        public static final int pastelPinkText=0x7f0a001a;
+        public static final int prettyPurpleText=0x7f0a0014;
+        public static final int seaFoamGreenText=0x7f0a0018;
+        public static final int songText=0x7f0a0011;
+        public static final int uglyGreenText=0x7f0a0012;
+        public static final int whiteText=0x7f0a0013;
     }
     public static final class style {
         /** 
