@@ -3,18 +3,8 @@
     android:id="@+id/appLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/magentaRed"
+    android:background="@color/white"
     tools:context="${relativePackage}.${activityClass}" >
-
-    <Button
-        android:id="@+id/magentaRedButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/sillyTextView"
-        android:layout_alignBottom="@+id/sillyTextView"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="24dp"
-        android:text="@string/magentaRedText" />
 
     <Button
         android:id="@+id/blackButton"
@@ -23,7 +13,8 @@
         android:layout_alignLeft="@+id/magentaRedButton"
         android:layout_below="@+id/magentaRedButton"
         android:layout_marginTop="18dp"
-        android:text="@string/blackText" />
+        android:text="@string/blackText"
+        android:textColor="@color/black" />
 
     <Button
         android:id="@+id/indigoBlueButton"
@@ -32,18 +23,8 @@
         android:layout_alignLeft="@+id/blackButton"
         android:layout_below="@+id/blackButton"
         android:layout_marginTop="14dp"
-        android:text="@string/indigoBlueText" />
-
-    <TextView
-        android:id="@+id/sillyTextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginRight="52dp"
-        android:layout_marginTop="28dp"
-        android:text="@string/songText"
-        android:textColor="@color/uglyGreen" />
+        android:text="@string/indigoBlueText"
+        android:textColor="@color/indigoBlue" />
 
     <Button
         android:id="@+id/appealingOrangeButton"
@@ -52,7 +33,8 @@
         android:layout_above="@+id/indigoBlueButton"
         android:layout_marginLeft="18dp"
         android:layout_toRightOf="@+id/blackButton"
-        android:text="@string/appealingOrangeText" />
+        android:text="@string/appealingOrangeText"
+        android:textColor="@color/appealingOrange" />
 
     <Button
         android:id="@+id/bloodRedButton"
@@ -61,7 +43,8 @@
         android:layout_alignBaseline="@+id/indigoBlueButton"
         android:layout_alignBottom="@+id/indigoBlueButton"
         android:layout_toRightOf="@+id/magentaRedButton"
-        android:text="@string/bloodRedText" />
+        android:text="@string/bloodRedText"
+        android:textColor="@color/bloodRed" />
 
     <Button
         android:id="@+id/bubblyBlueButton"
@@ -70,7 +53,8 @@
         android:layout_alignBaseline="@+id/bloodRedButton"
         android:layout_alignBottom="@+id/bloodRedButton"
         android:layout_toRightOf="@+id/appealingOrangeButton"
-        android:text="@string/bubblyBlueText" />
+        android:text="@string/bubblyBlueText"
+        android:textColor="@color/bubblyBlue" />
 
     <Button
         android:id="@+id/lemonYellowButton"
@@ -79,7 +63,8 @@
         android:layout_alignLeft="@+id/indigoBlueButton"
         android:layout_below="@+id/indigoBlueButton"
         android:layout_marginTop="14dp"
-        android:text="@string/lemonYellowText" />
+        android:text="@string/lemonYellowText"
+        android:textColor="@color/lemonYellow" />
 
     <Button
         android:id="@+id/pastelPinkButton"
@@ -88,7 +73,8 @@
         android:layout_alignBaseline="@+id/lemonYellowButton"
         android:layout_alignBottom="@+id/lemonYellowButton"
         android:layout_toLeftOf="@+id/bubblyBlueButton"
-        android:text="@string/pastelPinkText" />
+        android:text="@string/pastelPinkText"
+        android:textColor="@color/pastelPink" />
 
     <Button
         android:id="@+id/prettyPurpleButton"
@@ -97,7 +83,8 @@
         android:layout_alignBaseline="@+id/pastelPinkButton"
         android:layout_alignBottom="@+id/pastelPinkButton"
         android:layout_alignLeft="@+id/bubblyBlueButton"
-        android:text="@string/prettyPurpleText" />
+        android:text="@string/prettyPurpleText"
+        android:textColor="@color/prettyPurple" />
 
     <Button
         android:id="@+id/seaFoamGreenButton"
@@ -106,7 +93,8 @@
         android:layout_alignBaseline="@+id/appealingOrangeButton"
         android:layout_alignBottom="@+id/appealingOrangeButton"
         android:layout_alignLeft="@+id/bubblyBlueButton"
-        android:text="@string/seaFoamGreenText" />
+        android:text="@string/seaFoamGreenText"
+        android:textColor="@color/seaFoamGreen" />
 
     <Button
         android:id="@+id/uglyGreenButton"
@@ -115,7 +103,8 @@
         android:layout_alignBaseline="@+id/magentaRedButton"
         android:layout_alignBottom="@+id/magentaRedButton"
         android:layout_toRightOf="@+id/lemonYellowButton"
-        android:text="@string/uglyGreenText" />
+        android:text="@string/uglyGreenText"
+        android:textColor="@color/uglyGreen" />
 
     <Button
         android:id="@+id/whiteButton"
@@ -124,6 +113,18 @@
         android:layout_alignBaseline="@+id/bubblyBlueButton"
         android:layout_alignBottom="@+id/bubblyBlueButton"
         android:layout_toRightOf="@+id/prettyPurpleButton"
-        android:text="@string/whiteText" />
+        android:text="@string/whiteText"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/magentaRedButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="28dp"
+        android:text="@string/magentaRedText"
+        android:textColor="@color/magentaRed"
+        android:textColorHint="@color/white" />
 
 </RelativeLayout>

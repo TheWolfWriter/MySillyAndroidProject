@@ -25,7 +25,6 @@ public class SillyActivity extends Activity
 	private Button appBloodRedButton;
 	private Button appPastelPinkButton;
 	private Button appIndigoBlueButton;
-	private TextView appSillyTextView;
 	private RelativeLayout appLayout;
 	private ArrayList<Integer> colorList;
 
@@ -48,7 +47,6 @@ public class SillyActivity extends Activity
 		appBloodRedButton = (Button) findViewById(R.id.bloodRedButton);
 		appPastelPinkButton = (Button) findViewById(R.id.pastelPinkButton);
 		appIndigoBlueButton = (Button) findViewById(R.id.indigoBlueButton);
-		appSillyTextView = (TextView) findViewById(R.id.sillyTextView);
 		appLayout = (RelativeLayout) findViewById(R.id.appLayout);
 		
 		colorList = new ArrayList<Integer>();
