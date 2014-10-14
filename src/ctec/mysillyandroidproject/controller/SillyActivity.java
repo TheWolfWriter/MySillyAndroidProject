@@ -11,6 +11,12 @@ import android.widget.Button;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
+/**
+ * The MySillyAndroidProject controller class. Used to control objects within the project.
+ * @author S. McKell Nichols
+ * @version 1.0 10/14/14
+ */
+
 public class SillyActivity extends Activity
 {
 	private Button appMagentaRedButton;
@@ -28,6 +34,10 @@ public class SillyActivity extends Activity
 	private RelativeLayout appLayout;
 	private ArrayList<Integer> colorList;
 
+	/**
+	 * "Assigning" each button to the correct name for coding purposes.
+	 */
+	
 	@Override
 	protected void onCreate(Bundle savedInstanceState)
 	{
@@ -54,6 +64,10 @@ public class SillyActivity extends Activity
 		setupListeners();
 	}
 	
+	/**
+	 * Assigns each color to the colorList.
+	 */
+	
 	private void fillTheColorList()
 	{
 		colorList.add(R.color.magentaRed);
@@ -69,6 +83,10 @@ public class SillyActivity extends Activity
 		colorList.add(R.color.pastelPink);
 		colorList.add(R.color.indigoBlue);
 	}
+	
+	/**
+	 * Methods that assign each color to the correct button.
+	 */
 	
 	private void setupListeners()
 	{
